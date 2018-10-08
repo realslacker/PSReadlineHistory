@@ -17,7 +17,7 @@ The PSReadline module can maintain a persistent command-line history. However, t
 PS> Optimize-PSReadlineHistory -MaximumCommandCount 500 -Passthru
 
 
-    Directory: C:\Users\brooks\Nextcloud\Documents\WindowsPowerShell
+    Directory: C:\Users\example\Documents\WindowsPowerShell
 
 
 Mode                LastWriteTime         Length Name
@@ -48,7 +48,7 @@ Invoke PSReadline history in a similar fasion to Invoke-History.
 PS> Invoke-PSReadlineHistory 125
 
 
-    Directory: C:\Users\brooks\Nextcloud\Documents\WindowsPowerShell
+    Directory: C:\Users\example\Documents\WindowsPowerShell
 
 
 Mode                LastWriteTime         Length Name
