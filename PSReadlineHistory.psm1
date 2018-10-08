@@ -31,7 +31,7 @@
 
 .EXAMPLE
 
-    PS> Optimize-PSReadelineHistory -MaximumLineCount 500 -PassThru
+    PS> Optimize-PSReadelineHistory -MaximumCommandCount 500 -PassThru
 
     Trim the PSReadlineHistory file to 500 lines and display the file listing.
 
