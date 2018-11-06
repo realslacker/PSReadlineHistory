@@ -148,17 +148,19 @@ function Optimize-PSReadlineHistory {
 #>
 function Get-PSReadlineHistory {
 
+    [CmdletBinding(DefaultParameterSetName='SelectById')]
     param(
 
-        [Parameter(Position=0)]
+        [Parameter(Position=0, ParameterSetName='SelectByMatch')]
         [string]
         $Match,
 
-        [long[]]
+        [Parameter(Position=0, ParameterSetName='SelectById')]
+        [int64[]]
         $Id,
     
         [int]
-        $Count,
+        $Count = 25,
 
         [switch]
         $Unique
