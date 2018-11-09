@@ -156,7 +156,7 @@ function Get-PSReadlineHistory {
         $Match,
 
         [Parameter(Position=0, ParameterSetName='SelectById')]
-        [int64[]]
+        [int[]]
         $Id,
     
         [int]
@@ -269,7 +269,7 @@ function Invoke-PSReadlineHistory {
     param(
     
         [Parameter(Position=0, Mandatory, ValueFromPipelineByPropertyName, ValueFromPipeline)]
-        [long[]]
+        [int[]]
         $Id
 
     )
