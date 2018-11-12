@@ -12,7 +12,7 @@
 RootModule = '.\PSReadlineHistory.psm1'
 
 # Version number of this module.
-ModuleVersion = '2018.11.12.841'
+ModuleVersion = '2018.11.12.859'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
